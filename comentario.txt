@@ -1,0 +1,15 @@
+Princípio S: Responsabilidade única
+
+Esse princípio foi usado na criação das classes Expresso, Economico e Internacional
+que possuem responsabilidades únicas para aquele tipo de Envio
+
+Princípio O:
+Usado nas subclasses de envio. Para que haja modificação, não será necessário modificar o código principal,
+mas adicionar nóvos métodos
+
+Princípio L:
+Usado na classe envios, que possue atributos que serão utilizados em qualquer nova subClasse com herança;
+
+Princípio I:
+Utilizado na classe Saida, onde define um contrato, para que a classe que usar essa implementação, siga os requisitos
+estabelecidos na interface;
